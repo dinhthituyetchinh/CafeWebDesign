@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>ĐĂNG KÝ</title>
+</head>
+<body>
+    
+
+    <header>
+        <a href="#" class = "logo"><img src = "./img_web/bg-image.jpeg" /></a>
+        
+        <ul class="navlist">
+            <li><a href="./index.html">Trang chủ</a></li>
+            <li><a href="./products.html">Sản phẩm</a></li>
+            <li><a href="./introduction.html">Giới thiệu</a></li>
+            <li><a href="./contact.html">Liên hệ</a></li>
+        </ul>
+    
+        <div class="nav-icon">
+           <a href="./login.html"><i class='bx bx-user-circle'></i></a>
+           <a href="./cart.html"><i class='bx bx-cart'></i></a>
+           <div class="bx bx-menu" id ="menu-icon"></div>
+        </div>
+    </header>
+
+
+
+    <section class="home"></section>
+
+
+    <div class="wrapper">
+
+        <span class="icon-close"><i class='bx bx-x'></i></span>
+
+        <div class="form-box register">
+            <h2>ĐĂNG KÝ</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-user'></i></span>
+                    <input type="text" required>
+                    <label>Tên đăng nhập</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                    <input type="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Tôi đồng ý với các điều kiện và thời hạn </label>
+                </div>
+                <button type="submit" class="btn">ĐĂNG KÝ</button>
+                    <div class="login-register">
+                        <p>Bạn đã có tài khoản?<a href="./login.html" class="register-link">Đăng nhập</a></p>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+    <script src = "./main.js"></script>
+</body>
+</html>
